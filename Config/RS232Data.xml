@@ -1,0 +1,33 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData>
+<Version>20.0</Version>
+<Refnum>
+<Name>CommName: </Name>
+<RefKind>VISA</RefKind>
+<Val>COM4</Val>
+</Refnum>
+<Cluster>
+<Name>Serial Configuration</Name>
+<NumElts>5</NumElts>
+<U32>
+<Name>Baud Rate</Name>
+<Val>9600</Val>
+</U32>
+<U16>
+<Name>Parity</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Data Bits</Name>
+<Val>8</Val>
+</U16>
+<U16>
+<Name>Stop Bits</Name>
+<Val>10</Val>
+</U16>
+<U16>
+<Name>Flow Control</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</LVData>

@@ -1,0 +1,24 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>20.0</Version>
+<Array>
+<Name></Name>
+<Dimsize>4</Dimsize>
+<DBL>
+<Name>Value</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Value</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Value</Name>
+<Val>0.10000000000000</Val>
+</DBL>
+<DBL>
+<Name>Value</Name>
+<Val>30.00000000000000</Val>
+</DBL>
+</Array>
+</LVData>
