@@ -3,7 +3,7 @@
 <Version>20.0</Version>
 <Array>
 <Name></Name>
-<Dimsize>4</Dimsize>
+<Dimsize>3</Dimsize>
 <DBL>
 <Name>Value</Name>
 <Val>5.00000000000000</Val>
@@ -14,11 +14,7 @@
 </DBL>
 <DBL>
 <Name>Value</Name>
-<Val>0.10000000000000</Val>
-</DBL>
-<DBL>
-<Name>Value</Name>
-<Val>30.00000000000000</Val>
+<Val>15000.00000000000000</Val>
 </DBL>
 </Array>
 </LVData>

@@ -1,13 +1,25 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData>
 <Version>20.0</Version>
+<Cluster>
+<Name>CommNameOut</Name>
+<NumElts>2</NumElts>
 <Refnum>
-<Name>CommName: </Name>
+<Name>ACCCommName</Name>
+<RefKind>VISA</RefKind>
+<Val>COM6</Val>
+</Refnum>
+<Refnum>
+<Name>HostCommName</Name>
 <RefKind>VISA</RefKind>
 <Val>COM4</Val>
 </Refnum>
+</Cluster>
 <Cluster>
-<Name>Serial Configuration</Name>
+<Name>Serial Configuration Out</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>ACC Serial Configuration</Name>
 <NumElts>5</NumElts>
 <U32>
 <Name>Baud Rate</Name>
@@ -29,5 +41,30 @@
 <Name>Flow Control</Name>
 <Val>0</Val>
 </U16>
+</Cluster>
+<Cluster>
+<Name>Host ACC Serial Configuration</Name>
+<NumElts>5</NumElts>
+<U32>
+<Name>Baud Rate</Name>
+<Val>9600</Val>
+</U32>
+<U16>
+<Name>Parity</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Data Bits</Name>
+<Val>8</Val>
+</U16>
+<U16>
+<Name>Stop Bits</Name>
+<Val>10</Val>
+</U16>
+<U16>
+<Name>Flow Control</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
 </Cluster>
 </LVData>
